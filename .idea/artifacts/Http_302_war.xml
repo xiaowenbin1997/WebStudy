@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Http_302:war">
+    <output-path>$PROJECT_DIR$/Http_302/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Http_302</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Http_302-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Http_302:war exploded" />
+    </root>
+  </artifact>
+</component>
