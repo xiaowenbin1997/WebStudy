@@ -6,13 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redirect" />
         <module name="Http_302" />
+        <module name="Http_500" />
+        <module name="cookie" />
+        <module name="requestadndispatcher" />
         <module name="Http_405" />
+        <module name="servletcontext" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cookie" target="1.8" />
       <module name="Http_302" target="1.8" />
       <module name="Http_405" target="1.8" />
+      <module name="Http_500" target="1.8" />
+      <module name="redirect" target="1.8" />
+      <module name="requestadndispatcher" target="1.8" />
+      <module name="servletcontext" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
