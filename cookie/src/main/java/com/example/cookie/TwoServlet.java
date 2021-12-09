@@ -6,6 +6,7 @@ import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,6 +20,7 @@ public class TwoServlet extends HttpServlet {
         Double balance = 0.0;
         String food = request.getParameter("food");
         Map<String,String> cookieMap = new HashMap<>();
+        PrintWriter out = response.getWriter();
         Cookie[] requestCookies = request.getCookies();
         //得到cookieMap
         for (Cookie cookie : requestCookies) {
@@ -26,21 +28,40 @@ public class TwoServlet extends HttpServlet {
             String value = cookie.getValue();
             cookieMap.put(name,value);
         }
+        Cookie newCookie = null;
+        response.setContentType("text/html;charset=utf-8");
         String userName = cookieMap.get("user_name");
         balance = Double.valueOf(cookieMap.get("money"));
         switch (food){
             case "饺子":
-                balance -= jiaoZiMoney;
+                if (balance >= jiaoZiMoney) {
+                    balance -= jiaoZiMoney;
+                    newCookie = new Cookie("money",balance + "");
+                } else {
+                    out.print("用户" + userName + "余额不足");
+                }
                 break;
             case "面条":
-                balance -= mianTiaoMoney;
+                if (balance >= jiaoZiMoney) {
+                    balance -= mianTiaoMoney;
+                    newCookie = new Cookie("money",balance + "");
+                } else {
+                    out.print("用户" + userName + "余额不足");
+                }
                 break;
             case "盖饭":
-                balance -= gaiFanMoney;
+                if (balance >= jiaoZiMoney) {
+                    balance -= gaiFanMoney;
+                    newCookie = new Cookie("money",balance + "");
+                } else {
+                    out.print("用户" + userName + "余额不足");
+                }
+                break;
+            default:
                 break;
         }
-
-        System.out.println("取出cookies");
+        response.addCookie(newCookie);
+        out.print(food + "消费成功" + ",您的余额还剩" + balance + "元");
     }
 
     @Override

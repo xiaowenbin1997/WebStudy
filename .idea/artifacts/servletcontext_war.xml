@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="servletcontext:war">
-    <output-path>$PROJECT_DIR$/../servletcontext/target</output-path>
+    <output-path>$PROJECT_DIR$/servletcontext/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>servletcontext</module>
