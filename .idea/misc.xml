@@ -2,9 +2,11 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/cookie" />
+    <file type="web" url="file://$PROJECT_DIR$/firstweb" />
     <file type="web" url="file://$PROJECT_DIR$/Http_302" />
     <file type="web" url="file://$PROJECT_DIR$/Http_405" />
     <file type="web" url="file://$PROJECT_DIR$/Http_500" />
+    <file type="web" url="file://$PROJECT_DIR$/HttpServletRequest" />
     <file type="web" url="file://$PROJECT_DIR$/HttpSession" />
     <file type="web" url="file://$PROJECT_DIR$/redirect" />
     <file type="web" url="file://$PROJECT_DIR$/requestadndispatcher" />
@@ -25,6 +27,8 @@
         <option value="$PROJECT_DIR$/servletcontext/pom.xml" />
         <option value="$PROJECT_DIR$/cookie/pom.xml" />
         <option value="$PROJECT_DIR$/HttpSession/pom.xml" />
+        <option value="$PROJECT_DIR$/HttpServletRequest/pom.xml" />
+        <option value="$PROJECT_DIR$/firstweb/pom.xml" />
       </list>
     </option>
   </component>
