@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HttpSession/HttpSession.iml" filepath="$PROJECT_DIR$/HttpSession/HttpSession.iml" />
       <module fileurl="file://$PROJECT_DIR$/Http_302/Http_302.iml" filepath="$PROJECT_DIR$/Http_302/Http_302.iml" />
       <module fileurl="file://$PROJECT_DIR$/Http_405/Http_405.iml" filepath="$PROJECT_DIR$/Http_405/Http_405.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Http_500/Http_500.iml" filepath="$PROJECT_DIR$/Http_500/Http_500.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cookie/cookie.iml" filepath="$PROJECT_DIR$/cookie/cookie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redirect/redirect.iml" filepath="$PROJECT_DIR$/redirect/redirect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/requestadndispatcher/requestadndispatcher.iml" filepath="$PROJECT_DIR$/requestadndispatcher/requestadndispatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servletcontext/servletcontext.iml" filepath="$PROJECT_DIR$/servletcontext/servletcontext.iml" />
     </modules>
   </component>
 </project>

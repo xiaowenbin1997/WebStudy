@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cookie" />
     <file type="web" url="file://$PROJECT_DIR$/Http_302" />
     <file type="web" url="file://$PROJECT_DIR$/Http_405" />
+    <file type="web" url="file://$PROJECT_DIR$/Http_500" />
+    <file type="web" url="file://$PROJECT_DIR$/HttpSession" />
+    <file type="web" url="file://$PROJECT_DIR$/redirect" />
+    <file type="web" url="file://$PROJECT_DIR$/requestadndispatcher" />
+    <file type="web" url="file://$PROJECT_DIR$/servletcontext" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -10,6 +16,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Http_302/pom.xml" />
         <option value="$PROJECT_DIR$/Http_405/pom.xml" />
+        <option value="$PROJECT_DIR$/Http_500/pom.xml" />
+        <option value="$PROJECT_DIR$/redirect/pom.xml" />
+        <option value="$PROJECT_DIR$/../requestadndispatcher/pom.xml" />
+        <option value="$PROJECT_DIR$/../servletcontext/pom.xml" />
+        <option value="$PROJECT_DIR$/../cookie/pom.xml" />
+        <option value="$PROJECT_DIR$/requestadndispatcher/pom.xml" />
+        <option value="$PROJECT_DIR$/servletcontext/pom.xml" />
+        <option value="$PROJECT_DIR$/cookie/pom.xml" />
+        <option value="$PROJECT_DIR$/HttpSession/pom.xml" />
       </list>
     </option>
   </component>

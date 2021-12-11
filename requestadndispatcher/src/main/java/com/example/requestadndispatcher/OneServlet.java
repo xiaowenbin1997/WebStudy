@@ -1,0 +1,16 @@
+package com.example.requestadndispatcher;
+
+import sun.plugin.com.Dispatcher;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.IOException;
+
+public class OneServlet extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        System.out.println("step one");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/two");
+        requestDispatcher.forward(request,response);
+    }
+}
