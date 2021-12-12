@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="ServletContextListener:war exploded">
-    <output-path>$PROJECT_DIR$/cookie/ServletContextListener/target/ServletContextListener-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/ServletContextListener/target/ServletContextListener-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>

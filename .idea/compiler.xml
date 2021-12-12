@@ -7,19 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redirect" />
+        <module name="ServletContextAttributeListener" />
+        <module name="cookie" />
+        <module name="ServletContextListener" />
+        <module name="HttpSession" />
+        <module name="Http_405" />
         <module name="HttpServletRequest" />
         <module name="Http_302" />
         <module name="Http_500" />
-        <module name="cookie" />
         <module name="requestadndispatcher" />
-        <module name="HttpSession" />
-        <module name="Http_405" />
+        <module name="FilterTest02" />
+        <module name="FilterTest01" />
         <module name="firstweb" />
         <module name="servletcontext" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cookie" target="1.8" />
+      <module name="FilterTest01" target="1.8" />
+      <module name="FilterTest02" target="1.8" />
       <module name="firstweb" target="1.8" />
       <module name="Http_302" target="1.8" />
       <module name="Http_405" target="1.8" />
@@ -29,6 +35,8 @@
       <module name="redirect" target="1.8" />
       <module name="requestadndispatcher" target="1.8" />
       <module name="servletcontext" target="1.8" />
+      <module name="ServletContextAttributeListener" target="1.8" />
+      <module name="ServletContextListener" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

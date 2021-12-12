@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="ServletContextListener:war">
-    <output-path>$PROJECT_DIR$/cookie/ServletContextListener/target</output-path>
+    <output-path>$PROJECT_DIR$/ServletContextListener/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>ServletContextListener</module>

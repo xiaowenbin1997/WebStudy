@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="war" name="FilterTest01:war">
-    <output-path>$PROJECT_DIR$/过滤器检测合法请求/target</output-path>
+    <output-path>$PROJECT_DIR$/FilterTest01/target</output-path>
     <properties id="maven-jee-properties">
       <options>
         <module>FilterTest01</module>
