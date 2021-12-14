@@ -16,4 +16,13 @@ public class OneFilter implements Filter {
             writer.print("别看了");
         }
     }
+
+    @Override
+    public void init(FilterConfig filterConfig) throws ServletException {
+
+    }
+
+    @Override
+    public void destroy() {
+    }
 }

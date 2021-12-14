@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Filter03Enhance:war">
+    <output-path>$PROJECT_DIR$/Filter03Enhance/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Filter03Enhance</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Filter03Enhance-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Filter03Enhance:war exploded" />
+    </root>
+  </artifact>
+</component>

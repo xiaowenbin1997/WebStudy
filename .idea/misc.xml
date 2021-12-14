@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/cookie" />
+    <file type="web" url="file://$PROJECT_DIR$/Filter03Enhance" />
     <file type="web" url="file://$PROJECT_DIR$/FilterTest01" />
     <file type="web" url="file://$PROJECT_DIR$/FilterTest02" />
     <file type="web" url="file://$PROJECT_DIR$/firstweb" />
@@ -40,6 +41,7 @@
         <option value="$PROJECT_DIR$/../demo/ServletContextAttributeListener/pom.xml" />
         <option value="$PROJECT_DIR$/FilterTest01/pom.xml" />
         <option value="$PROJECT_DIR$/FilterTest02/pom.xml" />
+        <option value="$PROJECT_DIR$/Filter03Enhance/pom.xml" />
       </list>
     </option>
   </component>
