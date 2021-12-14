@@ -3,17 +3,18 @@ package com.example.HttpSession;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import java.io.IOException;
+import java.util.Enumeration;
 
-public class OneServlet extends HttpServlet {
+public class TwoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String goodsName = null;
-        goodsName = request.getParameter("goodsName");
         HttpSession session = request.getSession();
-        if (session.getAttribute(goodsName) == null) {
-            session.setAttribute(goodsName,1);
-        } else {
-            session.setAttribute(goodsName,(Integer)session.getAttribute(goodsName) + 1);
+        Enumeration<String> names = session.getAttributeNames();
+        System.out.println("商品名---数量");
+        while (names.hasMoreElements()) {
+            String goodsName = names.nextElement();
+            Integer goodsNum = (Integer) session.getAttribute(goodsName);
+            System.out.println(goodsName + "---" + goodsNum);
         }
     }
 
